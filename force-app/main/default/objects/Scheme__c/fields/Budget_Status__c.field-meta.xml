@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Budget_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Required_Budget__c &gt;  Budget_Incentivized__c ,  IMAGE(&quot;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=0681U00000EmQ6j&amp;operationContext=CHATTER&amp;contentId=05T1U00001Y4qsW&quot;, &quot;VALID&quot;, 15, 100)  ,  IMAGE(&quot;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=0681U00000EmQ6e&amp;operationContext=CHATTER&amp;contentId=05T1U00001Y4qsR&quot;, &quot;INVALID&quot;, 15, 100))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Requested &gt; Incentivized</inlineHelpText>
+    <label>Scheme Budget Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>YoY_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+				(TEXT(Type__c)== &apos;YoY Target Based&apos;),
+  		(ISNULL(YoY_Growth__c) )
+)</errorConditionFormula>
+    <errorMessage>For YoY Target Based Schemes value of YoY_Growth__c can&apos;t be empty</errorMessage>
+</ValidationRule>

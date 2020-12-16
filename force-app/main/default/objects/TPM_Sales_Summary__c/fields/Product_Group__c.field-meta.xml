@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Group__c</fullName>
+    <externalId>false</externalId>
+    <label>Group Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Premium</fullName>
+                <default>true</default>
+                <label>Premium</label>
+            </value>
+            <value>
+                <fullName>Popular</fullName>
+                <default>false</default>
+                <label>Popular</label>
+            </value>
+            <value>
+                <fullName>Prestige</fullName>
+                <default>false</default>
+                <label>Prestige</label>
+            </value>
+            <value>
+                <fullName>Luxuary</fullName>
+                <default>false</default>
+                <label>Luxuary</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

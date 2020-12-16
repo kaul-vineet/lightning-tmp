@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Distributor__c</columns>
+    <columns>Date__c</columns>
+    <columns>Product_Group__c</columns>
+    <columns>Amount__c</columns>
+    <columns>Incentive_Value__c</columns>
+    <columns>Incentive_Goods__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Date__c</field>
+        <operation>greaterThan</operation>
+        <value>10/1/2020</value>
+    </filters>
+    <filters>
+        <field>Product_Group__c</field>
+        <operation>equals</operation>
+        <value>Popular</value>
+    </filters>
+    <filters>
+        <field>Amount__c</field>
+        <operation>greaterThan</operation>
+        <value>495</value>
+    </filters>
+    <label>PAYOUT DEMO</label>
+</ListView>
