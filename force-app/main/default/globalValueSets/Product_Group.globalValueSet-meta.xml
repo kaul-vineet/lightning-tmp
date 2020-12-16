@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Prestige</fullName>
+        <default>true</default>
+        <label>Prestige</label>
+    </customValue>
+    <customValue>
+        <fullName>Popular</fullName>
+        <default>false</default>
+        <label>Popular</label>
+    </customValue>
+    <customValue>
+        <fullName>Luxuary</fullName>
+        <default>false</default>
+        <label>Luxury</label>
+    </customValue>
+    <customValue>
+        <fullName>Premium</fullName>
+        <default>false</default>
+        <label>Premium</label>
+    </customValue>
+    <masterLabel>Product Group</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
