@@ -4,7 +4,7 @@ This guide helps Salesforce developers who are new to Visual Studio Code go from
 
 - Click on the button below to install the DriveSafe application package. The Salesforce Org should be Enterprise and above.
 
-<a href="https://githubsfdeploy.herokuapp.com?owner=kaul-vineet&amp;repo=lightning-tmp">
+<a href="https://hosted-scratch.herokuapp.com/launch?template=https://github.com/kaul-vineet/lightning-tmp">
   <img src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png" alt="Deploy to Salesforce" />
 </a>
 
